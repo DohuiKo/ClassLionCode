@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>µµ»Ò¿‘¥œ¥Ÿ.</title>
+        <style>
+            body {margin : 0;}
+            #container {
+                background-color: skyblue;
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                height: 300px;
+            }
+            .item {
+                border-radius: 4px;
+                background-color: pink;
+                height: 60px;
+                width: 60px;
+            }
+
+            #one{
+                flex-grow: 1;
+            }
+
+            #two{
+                flex-grow: 2;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="one" class="item">1</div>
+            <div id="two" class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </body>
+
+</html>

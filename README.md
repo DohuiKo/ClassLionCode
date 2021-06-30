@@ -19,10 +19,12 @@
 
 ### SIMPLE INFORMATION
   -  https://www.notion.so/playmylife/Django-c4ebe8e088904edc9d6ab7baf7b9dc0c
-     Notion에 수업 듣는 내용 정리해가면서 듣고 있습니다. 실습시 사용했던 코드와 실습 화면도 모두 정리해두었습니다.
+     <br>
+     Notion에 수업 듣는 내용 정리해가면서 듣고 있습니다.
+     실습시 사용했던 코드와 실습 화면도 모두 정리해두었습니다.
   
   - 저번에 실습 에러 걸렸던 Media부분은 에러를 고쳤습니다.
-  - 지금은 User1부분은 됐고, User2부분에서 Superuser아닌 다른 User로 접속했을 때 Navbar기능이 적용이 안되는 문제를 겪고 있네요.
+  - 지금은 User1부분은 됐고, User2부분에서 Superuser아닌 다른 User로 접속했을 때 Navbar기능이 적용이 안되는 문제를 겪고 있습니다. (쥬륶) 이 부분은 빨리 해결해보도록 하겠습니다.
   - Notion의 정리본이 원본이기 때문에 Github에 써둔 정보를 보는 것도 좋지만 Notion도 확인해주시면 좋을 것 같아요.
 
 

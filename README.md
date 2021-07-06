@@ -17,6 +17,10 @@
 ### Python
   - Python 폴더에서 코드 확인가능하다.
 
+## Django
+- https://github.com/DohuiKo/DohuiKo.ClassLioneDjango.code.github.io.git
+- 해당 레포에서 ClassLion강의에서 진행한 두 프로젝트를 확인할 수 있다.
+
 ### INFORMATION
   -  https://www.notion.so/playmylife/Django-c4ebe8e088904edc9d6ab7baf7b9dc0c
      <br>
@@ -25,7 +29,7 @@
      실습시 사용했던 코드와 실습 화면도 모두 정리해두었습니다.
   
     
-  - Notion의 정리본이 원본입니다. Django가 깔려있는 folder는 애초에 업로드가 불가능한 것이었어서 (깔려있는 장고 프로그램까지 포함해서 파일 개수가 1,000개가 넘는 관계로 ;) 그냥 따로 정리해서 올리기로 생각했습니다. ~
+  - 강의 내용은 Notion내용 참고하세요.
 
 
 

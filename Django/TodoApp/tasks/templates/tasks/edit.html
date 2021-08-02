@@ -1,0 +1,53 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+    />
+
+    <style>
+        body {background-color: floralwhite; }
+        .app-container {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .complete {
+            text-decoration: line-through;
+        }
+    </style>
+<body>
+
+<div class="app-container d-flex align-items-center justify-content-center flex-column">
+    <h2>Update Your todo statement</h2>
+    <br>
+    <br>
+
+    <!-- action으로 데이터를 받아옵니다~ -->
+    <form action="{%url 'update' edit_task.id%}" method="POST">
+    {%csrf_token%}
+        <p>title: <input type="text" name="title" value = "{{edit_task.title}}"></p>
+        <!-- input태그의 세부 속성에 체크박스가 있다. checked를 하면 선택된 것으로 표시된다.-->
+        {% if edit_task.complete == True %}
+        <p>Cancel: <input type="checkbox" name="complete" checked/></p>
+        {% else %}
+        <p>Check: <input type="checkbox" name="complete" /></p>
+        {% endif %}
+        <div align="right" >
+            <button
+                            type="submit"
+                            class="btn btn-sm btn-success"
+                            ng-click="saveTask()"
+                            style="margin-top: 8px;"
+                    >
+                        Add
+                    </button>
+        </div>
+
+
+
+</form>
+</div>
+</body>
